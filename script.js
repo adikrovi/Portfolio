@@ -1,3 +1,5 @@
+document.body.classList.add('dark-mode');
+
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark' || !savedTheme) {
   document.body.classList.add('dark-mode');
