@@ -47,7 +47,7 @@ scene.add(ground);
 // === Car Model ===
 const loader = new GLTFLoader();
 let car;
-loader.load('assets/car.glb', (gltf) => {
+loader.load('../assets/car.glb', (gltf) => {
   car = gltf.scene;
   car.position.set(0, 0, 0);
   car.scale.set(1.5, 1.5, 1.5);
